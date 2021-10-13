@@ -2,40 +2,67 @@ body{
     text-align: center;
 }
 .wrap-btn button{
-    width: 70px;
-    height: 70px;
-    color: black;
-    font-size: 30px;
+    width: 86px;
+    height: 34px;
+    color: #202124;
+    font-size: 14px;
     border: none;
-    border-radius: 10px;
-    background: #e1e1e1;
+    border-radius: 4px;
+    background: #f1f3f4;
     cursor: pointer;
-    margin: 5px;
-    transition: 0.3s;
+    margin: 4px 2px;
 }
-.wrap-btn button:hover{
-    background: #ececec;
-}
+
 input[type=text]{
     height: auto;
     width: 350px;
     margin: 10px 0px;
 }
-.equal{
-    background-color: #4285F4!important;
-    transition: 0.3s;
+.main .equal{
+    background-color: #4285f4;
+    font-weight: bold;
+    color: #fff;
+    font-size: 18px;
 }
-.equal:hover{
-    background-color: #a1c0f3!important;
+.main .operator{
+    background-color: #dadce0;
+    font-size: 18px;
 }
 .input{
-    border: 1px solid black;
-    width: 295px;
-    height: auto;
-    display: block;
-    margin: auto;
-    margin-bottom: 10px;
-    text-align: end;
-    padding: 10px;
+    border: none;
     font-size: 30px;
+    display: flex;
+    justify-content: end;
+    margin-bottom: -15px;
+    margin-right: 10px;
 }
+.main .wrap{
+    position: relative;
+    width: 370px;
+    margin: auto;
+    line-height: 80px;
+    border-radius: 8px;
+    border: 1px solid #ebebeb;
+    margin-bottom: 10px;
+}
+
+.main .reset{
+    background-color: #dadce0;
+}
+.main .answer{
+    position: absolute;
+    top: -25px;
+    right: 10px;
+    color: #70757a;
+}
+
+.wrap svg{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    color: Red;
+    display: block;
+    width: 22px;
+    height: 22px;
+}
+
