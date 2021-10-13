@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+}
+.wrap-btn button{
+    width: 70px;
+    height: 70px;
+    color: black;
+    font-size: 30px;
+    border: none;
+    border-radius: 10px;
+    background: #e1e1e1;
+    cursor: pointer;
+    margin: 5px;
+    transition: 0.3s;
+}
+.wrap-btn button:hover{
+    background: #ececec;
+}
+input[type=text]{
+    height: auto;
+    width: 350px;
+    margin: 10px 0px;
+}
+.equal{
+    background-color: #4285F4!important;
+    transition: 0.3s;
+}
+.equal:hover{
+    background-color: #a1c0f3!important;
+}
+.input{
+    border: 1px solid black;
+    width: 295px;
+    height: auto;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+    text-align: end;
+    padding: 10px;
+    font-size: 30px;
+}
